@@ -3,20 +3,22 @@ package total;
 import java.util.List;
 
 public class CatTablePrinter {
+
     public static void printTable(List<Cat> cats) {
 
-
         System.out.printf(
-                "%-10s | %-5s | %-8s | %-6s | %-8s | %-10s%n",
-                "Name", "Age", "Satiety", "Mood", "Health", "Average"
+                "%-3s | %-10s | %-5s | %-8s | %-6s | %-8s | %-10s%n",
+                "№", "Name", "Age", "Satiety", "Mood", "Health", "Average"
         );
-        System.out.println("---------------------------------------------------------------");
+        System.out.println("---------------------------------------------------------------------");
 
+        int index = 1;
         for (Cat cat : cats) {
             double average = calculateAverage(cat);
 
             System.out.printf(
-                    "%-10s | %-5d | %-8d | %-6d | %-8d | %-10.2f%n",
+                    "%-3d | %-10s | %-5d | %-8d | %-6d | %-8d | %-10.2f%n",
+                    index++,
                     cat.getName(),
                     cat.getAge(),
                     cat.getSatietyLevel(),

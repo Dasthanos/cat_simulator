@@ -4,27 +4,39 @@
     "age": 4,
     "satietyLevel": 84,
     "moodLevel": 50,
-    "healthyLevel": 96
-  },
-  {
-    "name": "Poppy",
-    "age": 12,
-    "satietyLevel": 44,
-    "moodLevel": 63,
-    "healthyLevel": 69
-  },
-  {
-    "name": "Peach",
-    "age": 3,
-    "satietyLevel": 40,
-    "moodLevel": 33,
-    "healthyLevel": 42
+    "healthyLevel": 96,
+    "actionDoneToday": false
   },
   {
     "name": "Tom",
     "age": 5,
     "satietyLevel": 62,
     "moodLevel": 75,
-    "healthyLevel": 56
+    "healthyLevel": 56,
+    "actionDoneToday": false
+  },
+  {
+    "name": "Poppy",
+    "age": 12,
+    "satietyLevel": 44,
+    "moodLevel": 63,
+    "healthyLevel": 69,
+    "actionDoneToday": false
+  },
+  {
+    "name": "Peach",
+    "age": 3,
+    "satietyLevel": 40,
+    "moodLevel": 33,
+    "healthyLevel": 42,
+    "actionDoneToday": false
+  },
+  {
+    "name": "Kayrat",
+    "age": 19,
+    "satietyLevel": 99,
+    "moodLevel": 66,
+    "healthyLevel": 61,
+    "actionDoneToday": false
   }
 ]
